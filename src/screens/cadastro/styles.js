@@ -1,10 +1,21 @@
 import { StyleSheet } from "react-native";
+
 const style = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#E5E5E5'
+        backgroundColor: '#E5E5E5',
+        paddingLeft: 25,
+        paddingRight: 25,
+        paddingTop: 5
+    },
+
+    title: {
+        marginTop: 10,
+        fontFamily: 'Montserrat',
+        fontSize: 28,
+        marginBottom: 12
     },
 
     input: {
@@ -17,7 +28,15 @@ const style = StyleSheet.create({
         backgroundColor: '#FFF',
         borderRadius: 10,
         paddingLeft: 43,
-        marginTop: 10
+        marginTop: 5
+
+    },
+
+    categoria: {
+        fontFamily: 'Montserrat',
+        fontSize: 15,
+        width: 70,
+        height: 38
 
     },
 
@@ -31,7 +50,7 @@ const style = StyleSheet.create({
         marginTop: 20
 
     },
-    
+
     txtBtnCadastrar: {
         fontFamily: 'Montserrat',
         fontSize: 16,

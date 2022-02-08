@@ -7,12 +7,6 @@ const style = StyleSheet.create({
         backgroundColor: '#E5E5E5'
     },
 
-    logo: {
-        width: 53,
-        height: 38,
-        alignSelf: 'flex-end'
-    },
-
     title: {
         marginTop: 45,
         fontFamily: 'Montserrat',
@@ -21,7 +15,7 @@ const style = StyleSheet.create({
         marginBottom: 31
     },
 
-    btnAdicionar: {
+    btnSalvar: {
         width: 134,
         height: 31,
         backgroundColor: '#835FAB',
@@ -32,7 +26,7 @@ const style = StyleSheet.create({
 
     },
 
-    txtBtnAdicionar: {
+    txtBtnSalvar: {
         fontFamily: 'Montserrat',
         fontSize: 12,
         color: '#FFF'

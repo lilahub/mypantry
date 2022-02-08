@@ -1,8 +1,8 @@
 import React, { useState, useEfecct } from 'react';
 import { View, Text, TouchableOpacity, KeyboardAvoidingView, TextInput, Image } from 'react-native';
-import { useFonts } from 'expo-font';
 import styles from './styles';
-import firebase from '../../configs/firebase'
+import { useFonts } from 'expo-font';
+import firebase from '../../configs/firebase';
 
 function Login({ navigation }) {
     const [email, setEmail] = useState("")
@@ -71,9 +71,7 @@ function Login({ navigation }) {
             </View>
 
             <TouchableOpacity style={styles.btnCadastrar} onPress={() => navigation.navigate('Cadastro')}>
-                <Text style={styles.txtBtnCadastrar}>
-                    Cadastrar
-                </Text>
+                <Text style={styles.txtBtnCadastrar}>Cadastrar</Text>
             </TouchableOpacity>
 
         </KeyboardAvoidingView>

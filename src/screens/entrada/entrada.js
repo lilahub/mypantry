@@ -29,10 +29,7 @@ function Entrada({ navigation }) {
                 <Text style={styles.txtBtnComecar}>Começar</Text>
             </TouchableOpacity>
 
-
-
         </KeyboardAvoidingView>
     )
-
 }
 export default Entrada
