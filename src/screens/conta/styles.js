@@ -10,17 +10,20 @@ const style = StyleSheet.create({
     },
     title: {
         fontFamily: 'Montserrat-Regular',
-        fontSize: 18,
-        color: '#FFF'
+        fontSize: 20,
+        color: '#FFF',
+        marginTop: -200
     },
     btn: {
         width: 368,
         height: 45,
-        backgroundColor: '#835FAB',
+        color: '#9B9B9B',
+        backgroundColor: '#F8F8F6',
         alignItems: 'center',
         justifyContent: 'center',
         borderRadius: 10,
-        marginTop: 20
+        marginTop: 5,
+        marginBottom: 12
 
     },
     txtBtn: {

@@ -19,7 +19,7 @@ function Conta({ navigation }) {
         >
             <View>
                 <Text style={styles.title}>
-                    Olá, SelfDiário!
+                    Perfil
                 </Text>
             </View>
 
